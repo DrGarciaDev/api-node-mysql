@@ -1,0 +1,30 @@
+{
+  "name": "api-node-mysql",
+  "version": "1.0.0",
+  "description": "api para conectar node con mysql con la librería de mysql",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuigisDev/api-node-mysql.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "mysql"
+  ],
+  "author": "Luis García (Doctor Garcia Dev)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuigisDev/api-node-mysql/issues"
+  },
+  "homepage": "https://github.com/LuigisDev/api-node-mysql#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
